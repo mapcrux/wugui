@@ -6,4 +6,8 @@ import { Injectable } from '@angular/core';
 export class AngularlibraryService {
 
   constructor() { }
+
+  add(a: number, b: number){
+    return a+b;
+  }
 }

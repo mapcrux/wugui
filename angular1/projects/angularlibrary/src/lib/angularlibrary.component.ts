@@ -6,8 +6,9 @@ import { Component } from '@angular/core';
     <p>
       angularlibrary works!
     </p>
+    <img src="" alt="image" />
   `,
-  styles: [
+  styles: ['p { font-weight: bold; }'
   ]
 })
 export class AngularlibraryComponent {
