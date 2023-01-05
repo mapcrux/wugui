@@ -1,0 +1,19 @@
+{
+  "name": "wugui",
+  "version": "1.0.0",
+  "description": "MicroFrontEnd Framework for resolving MFEs from CDNs",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/mapcrux/wugui.git"
+  },
+  "author": "Michael Pelland",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/mapcrux/wugui/issues"
+  },
+  "homepage": "https://github.com/mapcrux/wugui#readme"
+}

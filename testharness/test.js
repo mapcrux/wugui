@@ -1,14 +1,10 @@
-async function asyncUrlImport(url) {
-    let response = await fetch (url);
-    const blob = await response.blob();
-    const objectURL = URL.createObjectURL(blob);
-    return await import(objectURL);;
-}
+import {asyncUrlImport, wuguiMessageQueue } from './wugui.js';
+
 
 import { name, draw, reportArea, reportPerimeter } from './square.mjs';
 import randomSquare from './square.mjs';
 
-asyncUrlImport("http://localhost/testharness/canvas.mjs").then((canvas) => {
+asyncUrlImport("http://localhost:8080/testharness/canvas.mjs").then((canvas) => {
 
     let myCanvas = canvas.create('myCanvas', document.body, 480, 320);
     let reportList = canvas.createReportList(myCanvas.id);
